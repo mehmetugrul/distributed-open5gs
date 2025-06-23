@@ -34,21 +34,11 @@ spec:
         - containerPort: 27017
           name: mongodb
         volumeMounts:
-        - name: mongodb-persistent-storage
-          mountPath: /data/db
-      volumes:
-      - name: mongodb-persistent-storage
-        persistentVolumeClaim:
-          claimName: mongodb-pv-claim
+        - mountPath: /data/db
+          name: data-volume
+  volumes:
+    - name: data-volume
+      emptyDir: {}
 ---
-apiVersion: v1
-kind: PersistentVolumeClaim
-metadata:
-  name: mongodb-pv-claim
-spec:
-  accessModes:
-    - ReadWriteOnce
-  resources:
-    requests:
-      storage: 20Gi
+
 {{ end }}

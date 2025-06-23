@@ -31,7 +31,7 @@ mongo:
   enabled: false
 nrf:
   enabled: false
-  serviceName: open5gs-nrf-shared
+  serviceName: open5gs-nrf
 nssf:
   enabled: false
 pcf:
@@ -42,7 +42,7 @@ udr:
   enabled: false
 smf:
   enabled: true
-  serviceName: open5gs-smf-shared
+  serviceName: open5gs-smf
 upf:
   enabled: true
-  serviceName: open5gs-upf
+  serviceName: open5gs-up

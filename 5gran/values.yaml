@@ -10,3 +10,4 @@ ran:
   user:
     imsi: "imsi-208930000000001"
   tac: 7
+  releaseName: open5g-ran

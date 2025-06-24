@@ -31,7 +31,6 @@ mongo:
   enabled: false
 nrf:
   enabled: false
-  serviceName: open5gs-nrf
 nssf:
   enabled: false
 pcf:

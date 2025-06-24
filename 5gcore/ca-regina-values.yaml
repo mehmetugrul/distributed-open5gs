@@ -45,4 +45,4 @@ smf:
   serviceName: open5gs-smf
 upf:
   enabled: true
-  serviceName: open5gs-up
+  serviceName: open5gs-upf

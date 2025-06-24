@@ -15,4 +15,4 @@ patches:
    patch: |-
     - op: replace
       path: /data/name
-      value: ca-central
+      value: central

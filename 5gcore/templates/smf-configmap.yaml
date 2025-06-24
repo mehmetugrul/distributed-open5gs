@@ -30,7 +30,7 @@ data:
         mtu: 1400
     nrf:
      sbi:
-      name: {{ .Values.nrf.serviceName }}.{{ .Release.Namespace }}.svc.cluster.local
+      name: open5gs-nrf.{{ .Release.Namespace }}.svc.cluster.local
     upf:
       pfcp:
         - name: {{ .Values.upf.serviceName }}.{{ .Release.Namespace }}.svc.cluster.local

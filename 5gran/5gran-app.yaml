@@ -12,8 +12,6 @@ spec:
     path: 5gran
     repoURL: 'https://github.com/adetalhouet/cnvopen5gcore'
     targetRevision: HEAD
-    helm:
-      releaseName: open5g-ran
   project: default
   syncPolicy:
     automated:

@@ -42,5 +42,5 @@ data:
        name: open5gs-nrf.{{ .Release.Namespace }}.svc.cluster.local
     smf:
      sbi:
-       name: open5gs-smf.{{ .Release.Namespace }}.svc.cluster.local
+       name: open5gs-smf-shared.{{ .Release.Namespace }}.svc.cluster.local
 {{ end }}

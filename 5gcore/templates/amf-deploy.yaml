@@ -41,7 +41,7 @@ metadata:
   labels:
     epc-mode: amf
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       epc-mode: amf

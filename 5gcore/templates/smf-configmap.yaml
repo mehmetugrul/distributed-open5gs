@@ -35,4 +35,7 @@ data:
       pfcp:
         - name: {{ .Values.upf.serviceName }}.{{ .Release.Namespace }}.svc.cluster.local
           dnn: {{ .Values.dnn }}
+    amf:
+     sbi:
+       name: open5gs-amf-shared.{{ .Release.Namespace }}.svc.cluster.local
 {{ end }}

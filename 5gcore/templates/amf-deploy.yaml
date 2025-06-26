@@ -22,6 +22,7 @@ metadata:
   annotations:
     skupper.io/proxy: http2
     skupper.io/address: open5gs-amf-shared
+    skupper.io/address: amf-open5gs-sctp
   labels:
     epc-mode: amf
 spec:

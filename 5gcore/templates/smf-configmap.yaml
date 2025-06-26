@@ -25,7 +25,7 @@ data:
           - addr: 10.45.0.1/16
             dnn: {{ .Values.dnn }}
         dns:
-          - 172.30.0.10
+          - 8.8.8.8
         mtu: 1400
     nrf:
      sbi:
